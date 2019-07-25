@@ -1,0 +1,27 @@
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
+/**
+ * <p>Description:TODO</p>
+ * <p>Copyright: Copyright (c)2,019</p>
+ * <p>Company: tope</p>
+ * <P>Created Date :2019/7/25</P>
+ *
+ * @author gaolei
+ * @version 1.0
+ */
+public class StringUtilsTest {
+    public static void main(String[] args) {
+        String string;
+        string = "adf456";
+        Integer a = new Integer(45);
+        int array[]={1,2,3,5656464,464686,46546,6464};
+        BigDecimal bigDecimal=new BigDecimal(1);
+        BigInteger bigInteger=new BigInteger("654564654546546545435435435353116516541616155135132135");
+        BigInteger bigInteger1=new BigInteger("1");
+        BigDecimal bigDecimal1=new BigDecimal(bigInteger,4);
+        BigInteger sum=bigInteger.add(bigInteger1);
+        System.out.println(bigDecimal1);
+        System.out.println(Long.MAX_VALUE+"\n"+Long.MIN_VALUE+"\n"+Integer.MAX_VALUE+"\n"+(Math.pow(2,0))+""+Double.MAX_VALUE);
+    }
+}
